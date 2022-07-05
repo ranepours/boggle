@@ -1,0 +1,46 @@
+body{
+    background-color: #577371;
+    justify-content: center;
+    color: #EADED5
+}
+
+button{
+    background-color: #EADED5;
+    border-radius: 1rem;
+}
+
+form, li, .text {
+    margin-left: 11rem;
+}
+
+.board {
+    color: #c6cdbc;
+    border: solid 1px #c6cdbc;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 200%;
+    margin-left: 11rem;
+}
+  
+.board td {
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+}
+  
+.msg {
+    font-family: monospace;
+    text-align: center;
+    padding: 1em;
+    border-radius: 1rem;
+}
+  
+.msg.ok {
+    color: white;
+    background-color: rgba(0,164,70,0.3);
+}
+  
+.msg.err {
+    color: white;
+    background-color: rgba(255,0,0,0.1);
+}
